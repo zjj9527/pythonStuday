@@ -20,4 +20,3 @@ elif quadratic(1,3,-4) != (1.0,-4.0):
   print("测试失败！")
 else:
   print("测试成功！")
-  
