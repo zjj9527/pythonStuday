@@ -1,7 +1,8 @@
 # continue 的使用
-n=0
-while n<10:
+n=1
+while n<100:
   n=n+1
-  if n%2==0:
-    continue
+  if n>10:
+    break
   print(n)
+print("end")
