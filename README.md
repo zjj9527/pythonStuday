@@ -1,1 +1,2 @@
 # pythonStuday
+这是做了学习Python并尝试使用git的项目
