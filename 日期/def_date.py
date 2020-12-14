@@ -21,3 +21,29 @@ print(x)
 
 x = datetime.datetime(2019,10,1)
 print(x.strftime("%B"))
+
+
+
+
+# 测试
+x = datetime.datetime.now()
+print(x.strftime("%a"))  #  weekday 短版本  Wed
+print(x.strftime("%A"))  #  weekday 完整版本 Wednesday
+print(x.strftime("%w"))  #  Weekday，数字 0-6，0 为周日    1
+print(x.strftime("%d"))  #  日，数字01-31   14 
+print(x.strftime("%b"))  #  月，短版本    Dec
+print(x.strftime("%B"))  #  月，完整版本  December
+print(x.strftime("%m"))  #  月, 数字01-12，12
+print(x.strftime("%a"))  #  年，短版本，无世纪  20
+print(x.strftime("%A"))  #  年， 完整版本，   2020
+print(x.strftime("%H"))  #  小时，00-23     16
+print(x.strftime("%I"))  #  小时，00-12     04
+print(x.strftime("%p"))  #  AM/PM     PM
+print(x.strftime("%M"))  #  分 00-59  59
+print(x.strftime("%S"))  #  秒 00-59  55
+print(x.strftime("%j"))  #  天数  001-365  300
+print(x.strftime("%c"))  #  日期和时间的本地版本  Mon Dec 14 17:01:40 2020
+print(x.strftime("%x"))  #  日期的本地版本  12/14/20
+print(x.strftime("%X"))  #  时间的本地版本  17:03:25
+
+
